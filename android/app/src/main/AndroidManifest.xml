@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutter_neumorphism_generator">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="Neumorphism Generator - Flutter"
         android:name="${applicationName}"
