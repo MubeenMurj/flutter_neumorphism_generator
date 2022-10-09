@@ -1,0 +1,36 @@
+name: flutter_neumorphism_generator
+description: Generate Soft-UI Flutter code.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  url_launcher: ^6.1.6
+  cyclop: ^0.6.0
+  syntax_highlighter:
+    git:
+      url: https://github.com/MubeenMurj/syntax_highlighter.git
+      ref: master
+  neumorph_calculator:
+    git:
+      url: https://github.com/MubeenMurj/neumorph_calculator.git
+      ref: master
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
